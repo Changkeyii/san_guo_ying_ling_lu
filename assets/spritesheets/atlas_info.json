@@ -1,0 +1,57 @@
+{
+  "run": {
+    "file": "knight_run_sheet.png",
+    "frame_width": 256,
+    "frame_height": 256,
+    "columns": 7,
+    "rows": 6,
+    "total_frames": 40,
+    "sheet_width": 1792,
+    "sheet_height": 1536,
+    "fps": 8
+  },
+  "attack": {
+    "file": "knight_attack_sheet.png",
+    "frame_width": 256,
+    "frame_height": 256,
+    "columns": 7,
+    "rows": 6,
+    "total_frames": 40,
+    "sheet_width": 1792,
+    "sheet_height": 1536,
+    "fps": 8
+  },
+  "idle": {
+    "file": "knight_idle_sheet.png",
+    "frame_width": 256,
+    "frame_height": 256,
+    "columns": 6,
+    "rows": 6,
+    "total_frames": 32,
+    "sheet_width": 1536,
+    "sheet_height": 1536,
+    "fps": 8
+  },
+  "hit": {
+    "file": "knight_hit_sheet.png",
+    "frame_width": 256,
+    "frame_height": 256,
+    "columns": 6,
+    "rows": 6,
+    "total_frames": 32,
+    "sheet_width": 1536,
+    "sheet_height": 1536,
+    "fps": 8
+  },
+  "death": {
+    "file": "knight_death_sheet.png",
+    "frame_width": 256,
+    "frame_height": 256,
+    "columns": 7,
+    "rows": 6,
+    "total_frames": 40,
+    "sheet_width": 1792,
+    "sheet_height": 1536,
+    "fps": 8
+  }
+}
