@@ -119,9 +119,9 @@ cat > /tmp/sprite_config.json << 'EOF'
   },
   "output_dir": "/workspace/assets/spritesheets",
   "character_name": "<角色名>",
-  "fps": 8,
-  "frame_width": 256,
-  "frame_height": 256
+  "fps": 4,
+  "frame_width": 1080,
+  "frame_height": 1080
 }
 EOF
 
@@ -159,9 +159,14 @@ python3 <skill_dir>/scripts/extract_spritesheet.py /tmp/sprite_config.json
 
 | 参数 | 默认值 | 说明 |
 |------|--------|------|
-| fps | 8 | 每秒提取帧数，8fps × 5s = 40帧 |
-| frame_width | 256 | 单帧宽度（像素） |
-| frame_height | 256 | 单帧高度（像素） |
+| fps | 4 | 每秒提取帧数，4fps × 5s = 20帧（适中） |
+| frame_width | 1080 | 单帧宽度（像素） |
+| frame_height | 1080 | 单帧高度（像素） |
 | duration | 4-6 | 视频时长秒数，动作越复杂越长 |
 
-调节帧数: 增大 fps 可获得更多帧（更流畅），减小则更少帧。
+## 帧质量硬性规则
+
+1. **单帧分辨率不低于 1080x1080**，确保不糊。视频源为 720p 时通过 ffmpeg lanczos 上采样。
+2. **FPS 默认 4**，每个动作约 16-24 帧，平衡流畅度和图集体积。
+3. **背景必须纯净统一**（绿幕或纯白），不允许渐变、阴影、倒影。
+4. 绿幕转白底后**必须验证零绿色残留**。
