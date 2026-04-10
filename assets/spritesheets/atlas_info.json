@@ -8,8 +8,7 @@
     "total_frames": 32,
     "sheet_width": 1536,
     "sheet_height": 1536,
-    "fps": 8,
-    "transparent": true
+    "fps": 8
   },
   "walk": {
     "file": "knight2_walk_sheet.png",
@@ -20,8 +19,7 @@
     "total_frames": 40,
     "sheet_width": 1792,
     "sheet_height": 1536,
-    "fps": 8,
-    "transparent": true
+    "fps": 8
   },
   "run": {
     "file": "knight2_run_sheet.png",
@@ -32,8 +30,7 @@
     "total_frames": 40,
     "sheet_width": 1792,
     "sheet_height": 1536,
-    "fps": 8,
-    "transparent": true
+    "fps": 8
   },
   "normal_attack": {
     "file": "knight2_normal_attack_sheet.png",
@@ -44,8 +41,7 @@
     "total_frames": 32,
     "sheet_width": 1536,
     "sheet_height": 1536,
-    "fps": 8,
-    "transparent": true
+    "fps": 8
   },
   "heavy_attack": {
     "file": "knight2_heavy_attack_sheet.png",
@@ -56,8 +52,7 @@
     "total_frames": 48,
     "sheet_width": 1792,
     "sheet_height": 1792,
-    "fps": 8,
-    "transparent": true
+    "fps": 8
   },
   "jump": {
     "file": "knight2_jump_sheet.png",
@@ -68,7 +63,6 @@
     "total_frames": 40,
     "sheet_width": 1792,
     "sheet_height": 1536,
-    "fps": 8,
-    "transparent": true
+    "fps": 8
   }
 }
