@@ -1,6 +1,5 @@
 -- ============================================================================
--- exploration.lua - 三国武灵录 (模块聚合)
+-- ui/seal_screen.lua - 三国武灵录 (模块聚合)
 -- ============================================================================
-require "exploration_core"
-require "exploration_render"
-return require "exploration_core"
+require "ui.seal_gacha"
+require "ui.seal_manager"

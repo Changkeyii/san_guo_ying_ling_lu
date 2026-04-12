@@ -1,6 +1,6 @@
 -- ============================================================================
--- exploration.lua - 三国武灵录 (模块聚合)
+-- ui/codex.lua - 三国武灵录 (模块聚合)
 -- ============================================================================
-require "exploration_core"
-require "exploration_render"
-return require "exploration_core"
+require "ui.codex_heroes"
+require "ui.codex_skills"
+require "ui.codex_equip"
