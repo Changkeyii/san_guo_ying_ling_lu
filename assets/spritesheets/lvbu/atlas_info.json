@@ -1,0 +1,57 @@
+{
+  "idle": {
+    "file": "lvbu_idle_sheet.png",
+    "frame_width": 1080,
+    "frame_height": 1080,
+    "columns": 4,
+    "rows": 4,
+    "total_frames": 16,
+    "sheet_width": 4320,
+    "sheet_height": 4320,
+    "fps": 4
+  },
+  "walk": {
+    "file": "lvbu_walk_sheet.png",
+    "frame_width": 1080,
+    "frame_height": 1080,
+    "columns": 5,
+    "rows": 4,
+    "total_frames": 20,
+    "sheet_width": 5400,
+    "sheet_height": 4320,
+    "fps": 4
+  },
+  "run": {
+    "file": "lvbu_run_sheet.png",
+    "frame_width": 1080,
+    "frame_height": 1080,
+    "columns": 5,
+    "rows": 4,
+    "total_frames": 20,
+    "sheet_width": 5400,
+    "sheet_height": 4320,
+    "fps": 4
+  },
+  "attack": {
+    "file": "lvbu_attack_sheet.png",
+    "frame_width": 1080,
+    "frame_height": 1080,
+    "columns": 4,
+    "rows": 4,
+    "total_frames": 16,
+    "sheet_width": 4320,
+    "sheet_height": 4320,
+    "fps": 4
+  },
+  "jump": {
+    "file": "lvbu_jump_sheet.png",
+    "frame_width": 1080,
+    "frame_height": 1080,
+    "columns": 5,
+    "rows": 4,
+    "total_frames": 20,
+    "sheet_width": 5400,
+    "sheet_height": 4320,
+    "fps": 4
+  }
+}
